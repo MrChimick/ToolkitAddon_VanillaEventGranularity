@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>ToolkitAddon.VEG</identifier>
+    <version>1.2</version>
+    <manifestUri>https://github.com/MrChimick/ToolkitAddon_VanillaEventGranularity/raw/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/MrChimick/ToolkitAddon_VanillaEventGranularity/releases/latest</downloadUri>
+</Manifest>

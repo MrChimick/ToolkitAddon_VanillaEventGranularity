@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>SmallRaid</defName>
+        <value>500</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>SmallRaid</defName>
+        <label>small raid</label>
+        <abbreviation>smallraid</abbreviation>
+        <cost>500</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_Raid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+    
+    
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>MediumRaid</defName>
+        <value>1000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>MediumRaid</defName>
+        <label>medium raid</label>
+        <abbreviation>mediumraid</abbreviation>
+        <cost>1000</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_Raid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>LargeRaid</defName>
+        <value>2000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>LargeRaid</defName>
+        <label>large raid</label>
+        <abbreviation>largeraid</abbreviation>
+        <cost>2000</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_Raid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+    <!-- Delayed raid min and max values, 2500 ticks is one in-game hour -->
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>RaidMinimumTicks</defName>
+        <value>5000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>RaidMaximumTicks</defName>
+        <value>60000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+    
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>SmallDelayedRaid</defName>
+        <value>500</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>SmallDelayedRaid</defName>
+        <label>small delayed raid</label>
+        <abbreviation>smalldelayedraid</abbreviation>
+        <cost>500</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_DelayedRaid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>MediumDelayedRaid</defName>
+        <value>1000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>MediumDelayedRaid</defName>
+        <label>medium delayed raid</label>
+        <abbreviation>mediumdelayedraid</abbreviation>
+        <cost>1000</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_DelayedRaid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+
+    <ToolkitAddon_VanillaEventGranularity.ConfigDef>
+        <defName>LargeDelayedRaid</defName>
+        <value>2000</value>
+    </ToolkitAddon_VanillaEventGranularity.ConfigDef>
+
+    <TwitchToolkit.Incidents.StoreIncidentSimple>
+        <defName>LargeDelayedRaid</defName>
+        <label>large delayed raid</label>
+        <abbreviation>largedelayedraid</abbreviation>
+        <cost>2000</cost>
+        <eventCap>5</eventCap>
+        <incidentHelper>ToolkitAddon_VanillaEventGranularity.IncidentAddon_DelayedRaid</incidentHelper>
+        <karmaType>Bad</karmaType>
+    </TwitchToolkit.Incidents.StoreIncidentSimple>
+</Defs>

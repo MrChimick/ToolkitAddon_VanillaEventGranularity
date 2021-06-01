@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <LetterLabelDelayedRaid>Delayed Raid</LetterLabelDelayedRaid>
+    <LetterDelayedRaid>A raid is incoming, they should arrive in about {0} hours</LetterDelayedRaid>
+</LanguageData>
